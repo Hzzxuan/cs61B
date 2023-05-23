@@ -13,8 +13,8 @@ public class NBody {
         In in = new In(s);
         int n = in.readInt();
         double R =in.readDouble();
-        Planet[] PlanetArray= new Planet[5];
-        for(int i=0;i<5;i=i+1){
+        Planet[] PlanetArray= new Planet[n];
+        for(int i=0;i<n;i=i+1){
             double xxp = in.readDouble();
             double yyp = in.readDouble();
             double xxv = in.readDouble();
